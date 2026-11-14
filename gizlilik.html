@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NullChat Gizlilik Politikası</title>
+<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; line-height: 1.65; margin: 0; padding: 0 18px 60px; background: #ffffff; color: #111b21; }
+@media (prefers-color-scheme: dark) { body { background: #0b141a; color: #e9edef; } a { color: #25d366; } .box { background: #111b21 !important; border-color: #233138 !important; } }
+main { max-width: 720px; margin: 0 auto; }
+h1 { font-size: 28px; margin: 34px 0 6px; }
+h2 { font-size: 20px; margin-top: 32px; }
+.muted { color: #667781; font-size: 14px; }
+a { color: #008069; }
+.box { background: #f5f6f6; border: 1px solid #e2e8f0; border-radius: 14px; padding: 14px 18px; margin: 16px 0; }
+ul { padding-left: 22px; }
+li { margin: 6px 0; }
+hr { border: none; border-top: 1px solid #e2e8f0; margin: 40px 0; }
+.nav a { margin-right: 14px; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+<p class="nav"><a href="kosullar.html">Kullanım Koşulları</a><a href="gizlilik.html">Gizlilik Politikası</a><a href="hesap-silme.html">Hesap ve Veri Silme</a></p>
+<h1>NullChat Gizlilik Politikası</h1>
+<p class="muted">Son güncelleme: 14 Kasım 2026 · <a href="#english">English version below</a></p>
+
+<p>Bu politika, NullChat Android uygulamasının (paket adı: <code>com.anonim.chat</code>) hangi verileri işlediğini, neden işlediğini ve bu veriler üzerindeki haklarını açıklar. Uygulamanın geliştiricisine <a href="mailto:newappcreator00@gmail.com">newappcreator00@gmail.com</a> adresinden ulaşabilirsin.</p>
+
+<h2>1. Hangi verileri işliyoruz?</h2>
+<ul>
+<li><b>Google hesabı bilgileri:</b> Google ile giriş yaptığında adın, e-posta adresin ve profil fotoğrafın uygulamaya iletilir. Giriş yapmak ve profilini oluşturmak için kullanılır.</li>
+<li><b>Profil bilgileri:</b> Uygulama içinde belirlediğin görünen ad, kullanıcı adı, profil fotoğrafı ve (eklediysen) telefon numarası. Arkadaşların seni bulabilsin diye bulutta (Google Firebase, Cloud Firestore) saklanır.</li>
+<li><b>Arkadaşlık istekleri ve kişi listesi:</b> Gönderdiğin ve aldığın arkadaşlık istekleri ile arkadaş listen bulutta saklanır.</li>
+<li><b>Mesajlar:</b> Normal sohbet mesajlarının metni, teslim edilebilmesi için kısa süreliğine sunucu ve gerçek zamanlı iletim hizmetleri üzerinden geçer; teslim edildikten sonra sunucudan silinir. Mesaj geçmişin cihazında yerel olarak tutulur. <b>GhostChat</b> mesajları yalnızca cihazların belleğinde (RAM) tutulur, diske ve veritabanına yazılmaz.</li>
+<li><b>Gruplar:</b> Bir grup kurduğunda veya gruba katıldığında grubun adı, üyelerin kullanıcı kimlikleri ve görünen adları, yönetici/üye bilgisi ve grup fotoğrafı, grup üyelerinin cihazlarına aynı şekilde iletilir. Gruba katılmak için her kişiye ayrı davet gider; davet tek kullanımlıktır. Grup adı ve üye listesi (grup fotoğrafı ve mesajlar hariç) hesabına bağlı olarak bulutta yedeklenir; grup mesajları ve fotoğrafları normal mesajlar gibi yalnızca cihazlarda saklanır. Gruptan çıkarsan ya da çıkarılırsan grup ve mesajları cihazından silinir.</li>
+<li><b>Fotoğraf, GIF ve çıkartmalar:</b> Normal sohbette sen çekerek veya galeriden seçerek gönderdiğin tek fotoğraf (cihazında küçültülür) ile Google klavyeden (GIF/çıkartma) gönderdiğin görseller, mesaj gibi teslim edilebilmesi için kısa süreliğine sunucudan (Cloud Firestore) geçer ve teslim edildikten sonra sunucudan silinir. Görsel, mesaj geçmişin gibi cihazında yerel olarak saklanır. GhostChat'te fotoğraf, GIF ve çıkartma gönderilmez.</li>
+<li><b>Bildirim bilgileri:</b> Anlık bildirim gönderebilmek için cihazına ait bir bildirim jetonu (FCM token) bulutta saklanır. Bildirimde gösterilen gönderen adı ve mesaj metni bildirim hizmetleri üzerinden iletilir.</li>
+<li><b>Engellenenler ve şikayetler:</b> Engellediğin kişilerin listesi (kullanıcı kimliği ve görünen ad) hesabına bağlı olarak bulutta saklanır, böylece yeni cihazda da geçerli olur. Bir kullanıcıyı şikayet ettiğinde şikayet eden ve edilen kişinin kullanıcı kimliği, görünen ad, seçtiğin sebep, yazdığın açıklama (şikayette ne yaşadığını yazmak zorunludur), şikayetin yapıldığı yer (sohbet, grup veya profil) ve zamanı sunucuya kaydedilir. Mesajların kendisi cihazlarda tutulduğu için şikayet kaydına mesaj içeriği <b>eklenmez</b>.</li>
+</ul>
+<p>NullChat; konumunu, rehberini, mikrofonunu, reklam kimliğini <b>toplamaz</b>. <b>Kamera:</b> kamera iznini yalnızca sen sohbette fotoğraf düğmesinden "Kamera"ya basıp fotoğraf çektiğinde kullanırız; kamera arka planda çalışmaz ve çektiğin fotoğraf sen onaylayınca gönderilir. <b>Galeri:</b> uygulama galerine erişmez; yalnızca senin sistem seçicisinden seçtiğin tek fotoğraf paylaşılır. Uygulamada reklam ve analiz (istatistik) aracı <b>yoktur</b>. Verilerini satmayız.</p>
+
+<h2>2. Verileri neden kullanıyoruz?</h2>
+<p>Yalnızca uygulamanın çalışması için: giriş yapmanı sağlamak, arkadaşlarını bulmak, mesajları ve bildirimleri iletmek ve hesabını yönetmek. Verilerin reklam veya profilleme amacıyla kullanılmaz.</p>
+
+<h2>3. Kullandığımız hizmetler (üçüncü taraflar)</h2>
+<ul>
+<li><b>Google Firebase</b> (Google Sign-In, Cloud Firestore, Firebase Cloud Messaging): giriş, profil/istek verisi ve anlık bildirim.</li>
+<li><b>Cloudflare Workers:</b> bildirim isteklerini Firebase'e ileten küçük bir sunucu işlevi.</li>
+<li><b>Herkese açık MQTT aracıları (HiveMQ, EMQX):</b> mesajların gerçek zamanlı iletimi için kullanılan aracı sunucular.</li>
+</ul>
+<p>Bu hizmetler kendi gizlilik politikalarına tabidir.</p>
+
+<h2>4. Güvenlik</h2>
+<p>Tüm sunucu bağlantıları şifreli (TLS/HTTPS/WSS) kanallar üzerinden yapılır. GhostChat odalarında mesajlar ECDH anahtar değişimiyle cihazlar arasında şifrelenir. <b>Normal sohbet mesajları uçtan uca şifreli değildir</b>; yukarıda anılan hizmetler üzerinden iletilir. Hiçbir sistem tamamen risksiz değildir.</p>
+
+<h2>5. Saklama ve silme</h2>
+<ul>
+<li>Teslim edilen mesaj paketleri sunucudan silinir. GhostChat mesajları cihaz belleğinden uygulama kapanınca veya silince yok olur.</li>
+<li>Profil, arkadaşlık isteği, engellenenler listesi ve bildirim jetonu verilerin hesabın var olduğu sürece saklanır.</li>
+<li>Şikayet kayıtları, kötüye kullanımı önlemek ve yasal yükümlülükleri yerine getirmek için gerekli olduğu sürece, hesap silindikten sonra da saklanabilir.</li>
+<li><b>Hesabını silmek için:</b> uygulamada <i>Ayarlar → Hesabı Yönet → Hesabı Sil</i>. Ayrıntılar için <a href="hesap-silme.html">Hesap ve Veri Silme</a> sayfasına bak. Uygulamaya erişimin yoksa <a href="mailto:newappcreator00@gmail.com">newappcreator00@gmail.com</a> adresine yazarak silme talebi gönderebilirsin.</li>
+</ul>
+
+<h2>6. Çocuklar</h2>
+<p>NullChat 18 yaşından küçüklere yönelik değildir ve bilerek 18 yaş altı kişilerin verisini toplamaz. Bir çocuğun hesap açtığını fark edersen bize yaz, hesabı sileriz.</p>
+
+<h2>7. Haklarınız (KVKK dahil)</h2>
+<p>6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında veri sorumlusu, uygulamanın geliştiricisidir. Verilerine erişme, düzeltme, silinmesini veya işlenmesine itiraz etmeyi isteme hakkın vardır. Bunun için uygulama içi ayarları kullanabilir veya <a href="mailto:newappcreator00@gmail.com">newappcreator00@gmail.com</a> adresine yazabilirsin.</p>
+
+<h2>8. Değişiklikler</h2>
+<p>Bu politika güncellenebilir. Güncel sürüm her zaman bu sayfada yayımlanır ve yukarıdaki tarih değişir. Uygulamayı kullanman <a href="kosullar.html">Kullanım Koşulları</a>'nı da kabul ettiğin anlamına gelir.</p>
+
+<h2>9. İletişim</h2>
+<p><a href="mailto:newappcreator00@gmail.com">newappcreator00@gmail.com</a></p>
+
+<hr>
+<h1 id="english">NullChat Privacy Policy (English)</h1>
+<p class="muted">Last updated: November 14, 2026</p>
+
+<p>This policy explains what data the NullChat Android app (package <code>com.anonim.chat</code>) processes, why, and what choices you have. Contact the developer at <a href="mailto:newappcreator00@gmail.com">newappcreator00@gmail.com</a>.</p>
+
+<h2>1. Data we process</h2>
+<ul>
+<li><b>Google account information:</b> When you sign in with Google, your name, email address and profile photo are passed to the app to sign you in and create your profile.</li>
+<li><b>Profile information:</b> Display name, username, profile photo and (if you add it) phone number, stored in the cloud (Google Firebase, Cloud Firestore) so friends can find you.</li>
+<li><b>Friend requests and contact list</b> are stored in the cloud.</li>
+<li><b>Messages:</b> Regular chat messages pass briefly through server and real-time delivery services so they can be delivered, and are deleted from the server after delivery. Your message history is kept locally on your device. <b>GhostChat</b> messages are kept only in device memory (RAM) and are not written to disk or a database.</li>
+<li><b>Groups:</b> When you create or join a group, the group name, members' user IDs and display names, each member's role (admin/member) and the group photo are delivered to the other members' devices. Joining requires a separate invitation sent to each person, and an invitation can be used only once. The group name and member list (not the group photo or messages) are backed up to the cloud under your account; group messages and photos are stored on devices only, like regular messages. If you leave or are removed from a group, the group and its messages are deleted from your device.</li>
+<li><b>Photos, GIFs and stickers:</b> A single photo you take or pick from your gallery in a regular chat (resized on your device), and images you send from your keyboard (GIFs/stickers), pass briefly through our server (Cloud Firestore) so they can be delivered, and are deleted from the server after delivery. Like your message history, they are kept locally on your device. Photos, GIFs and stickers cannot be sent in GhostChat.</li>
+<li><b>Notification data:</b> A device notification token (FCM token) is stored in the cloud to send push notifications. The sender name and message text shown in a notification are relayed through notification services.</li>
+<li><b>Blocked users and reports:</b> The list of users you block (user ID and display name) is stored in the cloud with your account so it also applies on a new device. When you report a user, the user IDs and display names of the reporter and the reported user, the reason you choose, the description you write (describing what happened is required for every report), where the report was made (chat, group or profile) and the time are saved on our server. Message content is kept on devices and is <b>not</b> attached to a report.</li>
+</ul>
+<p>NullChat does <b>not</b> collect your location, contacts, microphone or advertising ID. <b>Camera:</b> we use the camera permission only when you tap "Camera" in the photo button of a chat to take a photo; the camera never runs in the background and the photo is sent only after you confirm it. <b>Gallery:</b> the app does not access your gallery; only the single photo you choose in the system picker is shared. The app contains <b>no ads and no analytics</b>. We do not sell your data.</p>
+
+<h2>2. Why we use it</h2>
+<p>Only to run the app: signing you in, finding friends, delivering messages and notifications, and managing your account. Your data is not used for advertising or profiling.</p>
+
+<h2>3. Third-party services</h2>
+<ul>
+<li><b>Google Firebase</b> (Google Sign-In, Cloud Firestore, Firebase Cloud Messaging)</li>
+<li><b>Cloudflare Workers</b> (relays notification requests to Firebase)</li>
+<li><b>Public MQTT brokers (HiveMQ, EMQX)</b> used for real-time message delivery</li>
+</ul>
+
+<h2>4. Security</h2>
+<p>All server connections use encrypted channels (TLS/HTTPS/WSS). In GhostChat rooms, messages are encrypted between devices using ECDH key exchange. <b>Regular chat messages are not end-to-end encrypted</b>; they travel through the services listed above. No system is completely risk-free.</p>
+
+<h2>5. Retention and deletion</h2>
+<ul>
+<li>Delivered message packets are deleted from the server. GhostChat messages disappear from device memory when the app closes or you delete them.</li>
+<li>Profile, friend request, blocked-users list and notification token data are kept while your account exists.</li>
+<li>Report records may be kept after account deletion for as long as needed to prevent abuse and meet legal obligations.</li>
+<li><b>To delete your account:</b> in the app go to <i>Settings → Manage Account → Delete Account</i>. See <a href="hesap-silme.html">Account and Data Deletion</a>. If you cannot access the app, email <a href="mailto:newappcreator00@gmail.com">newappcreator00@gmail.com</a> to request deletion.</li>
+</ul>
+
+<h2>6. Children</h2>
+<p>NullChat is not directed to anyone under 18 and does not knowingly collect their data. If you believe a child has an account, contact us and we will delete it.</p>
+
+<h2>7. Your rights</h2>
+<p>The app developer is the data controller (including under Turkey's Personal Data Protection Law, KVKK). You may request access to, correction of, deletion of, or object to the processing of your data using the in-app settings or by emailing <a href="mailto:newappcreator00@gmail.com">newappcreator00@gmail.com</a>.</p>
+
+<h2>8. Changes and contact</h2>
+<p>We may update this policy; the latest version is always published on this page. Using the app also means you accept the <a href="kosullar.html#english">Terms of Use</a>. Contact: <a href="mailto:newappcreator00@gmail.com">newappcreator00@gmail.com</a></p>
+</main>
+</body>
+</html>
